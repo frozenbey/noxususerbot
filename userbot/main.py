@@ -146,7 +146,7 @@ try:
     bot.start()
     idim = bot.get_me().id
     noxusbl = requests.get('https://gitlab.com/Quiec/asen/-/raw/master/asen.json').json()
-    if idim in asenabl:
+    if idim in noxusbl:
         bot.disconnect()
 
     # ChromeDriver'ı Ayarlayalım #
